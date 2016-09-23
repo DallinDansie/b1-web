@@ -1,0 +1,99 @@
+body {
+	background-color: #000000;
+}
+
+#first {
+	color: white;
+	font-size: 50px;
+	text-align: left;
+	clear: float;
+}
+
+h2 {
+	color: white;
+	clear: float;
+	margin-bottom: 90px;
+}
+
+#banner {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 25px;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+#bannerpic {
+	float: right;
+	margin: 0 0 10px 10px;
+	border-style: outset;
+	border-width: 10px;
+	border-color: white;
+	padding: 5px;
+	box-shadow: 10px 5px 8px gray;
+}
+
+#aboutmebutton: {
+	border-radius: 20px;
+	background-color: white;
+	font-size: 1.5em;
+}
+
+#aboutmeinfo {
+	color: black;
+}
+
+#belowbannerpic {
+	float: right;
+}
+
+#bbpd {
+	background-color: white;
+	width: 310px;
+	height: 200px;
+	float: left;
+	border-radius: 10px;
+}
+
+.floatclear {
+	clear: both;
+}
+
+.w3-navbar {
+	margin-top: 20px;
+}
+
+#slideshow {
+	/* notes (comments) to future self, and co-developers on a team
+	 used a nested div (div followed by another div)
+	 so had to use width and margin
+	 to align my boxes*/
+	border-style: ridge;
+	border-width: 10px;
+	border-color: #757575;
+	border-radius: 10px;
+	width: 30%;
+	padding: 20px 20px 20px 20px;
+	margin: auto;
+	box-shadow: 8px 8px 8px black;
+}
+
+#testbutton {
+	margin: 0 0 0 900px;
+}
+
+#buttonpic {
+	border-style: ridge;
+	border-width: 10px;
+	border-color: white;
+	padding: 5px;
+	box-shadow: 10px 10px 10px teal;
+	margin: 0 0 0 800px;
+}
+
+#spin {
+	margin: 0 0 0 850px;
+}
