@@ -1,0 +1,100 @@
+html {
+	/* Fix IT! */
+	background-image: url('Opacity_City.jpg') no-repeat center fixed;
+	min-height: 100%;
+}
+
+body {
+	background-image: url('Opacity_City.jpg');
+	min-height: 100%;
+	/*
+	 background-color: lightgrey;
+
+	 border-style: solid;
+	 border-bottom: 10px solid purple;
+	 border-radius: 40px 40px 0 0;
+	 */
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 5px 5px 5px blue;
+}
+
+#banner {
+	background: linear-gradient(gray, white); /* Standard syntax */
+}
+
+p {
+	text-align: center;
+	border-style: solid;
+	border-color: #00ace6;
+	border-radius: 40px;
+}
+
+h2 {
+	background-color: pink;
+	text-align: center;
+	border-radius: 40px;
+	color: #00ace6;
+}
+
+div {
+	text-align: center;
+}
+
+#first {
+	text-shadow: 0 0 7px #FF0000, 0 0 5px #0000FF;
+	background-color: pink;
+	text-align: center;
+	border-style: solid;
+	border-radius: 40px;
+}
+
+#olympian {
+	/*
+	 text-align: center;
+	 */
+	display: block;
+	margin: auto;
+	width: 640px;
+	padding: 15px;
+	border: 5px solid gray;
+}
+
+#favPic {
+	/*
+	 text-align: center;
+	 */
+	display: block;
+	margin: auto;
+	width: 640px;
+	padding: 15px;
+	border: 5px solid gray;
+	box-shadow: 8px 8px 8px black;
+}
+
+#slideshow {
+	/* notes (comments) to future self, and co-developers on a team
+	 used a nested div (div followed by another div)
+	 so had to use width and margin
+	 to align my boxes*/
+	border-style: ridge;
+	border-width: 10px;
+	border-color: #757575;
+	border-radius: 10px;
+	width: 30%;
+	padding: 20px 20px 20px 20px;
+	margin: auto;
+	box-shadow: 8px 8px 8px black;
+}
+
+#testbutton {
+	background-color: pink;
+	font-size: 2em;
+	border-style: solid;
+	border-color: #757575;
+	border-radius: 10px;
+	
+}
+
